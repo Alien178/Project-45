@@ -1,0 +1,13 @@
+    if (enemyBulletGroup.isTouching(bulletGroup4)) {
+        enemyBulletGroup.destroyEach();
+        bulletGroup4.destroyEach();
+    } else if (enemybulletGroup4.isTouching(bulletGroup4)) {
+        enemybulletGroup4.destroyEach();
+        bulletGroup4.destroyEach();
+    } else if (enemybulletGroup4.isTouching(bulletGroup4)) {
+        enemybulletGroup4.destroyEach();
+        bulletGroup4.destroyEach();
+    } else if (enemyBulletGroup4.isTouching(bulletGroup4)) {
+        enemyBulletGroup4.destroyEach();
+        bulletGroup4.destroyEach();
+    }
